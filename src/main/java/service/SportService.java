@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 
 @RequiredArgsConstructor
 public class SportService {
-    private static final String SPORT_URI = "https://leon.bet/api-2/betline/sports?ctag=ru-UA&flags=urlv2";
+    private static final String SPORT_URI = "https://leon.bet/api-2/betline/sports?ctag=ru-UA";
 
     private final HttpRequestBuilder requestBuilder;
     private final HttpRequestSender requestSender;
