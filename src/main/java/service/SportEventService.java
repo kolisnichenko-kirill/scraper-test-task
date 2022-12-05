@@ -16,7 +16,7 @@ import java.util.stream.Stream;
 
 @RequiredArgsConstructor
 public class SportEventService {
-    private static final String EVENT_URI = "https://leon.bet/api-2/betline/event/all?ctag=ru-UA&eventId=%s&flags=reg,mm2,rrc,nodup,urlv2,smg,outv2";
+    private static final String EVENT_URI = "https://leon.bet/api-2/betline/event/all?ctag=ru-UA&eventId=%s&flags=reg";
 
     private final HttpRequestBuilder requestBuilder;
     private final HttpRequestSender requestSender;
